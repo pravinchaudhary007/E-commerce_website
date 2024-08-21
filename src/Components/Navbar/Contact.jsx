@@ -21,7 +21,7 @@ const Contact = () => {
         <p>Were here to help! Reach out to us with any questions or concerns.</p>
 
         <form onSubmit={handlesubmit} className='flex justify-center lg:m-10 md:m-8 sm:m-6 m-2'>
-          <div className='flex flex-col lg:min-w-[600px] gap-4 items-left border-2 border-white md:rounded-md rounded-sm bg-black bg-opacity-50 lg:p-10 md:p-8 sm:p-6 p-4'>
+          <div className='flex flex-col lg:min-w-[600px] md:w-[600px] sm:w-[500px] w-[400px] gap-4 items-left border-2 border-white md:rounded-md rounded-sm bg-black bg-opacity-50 lg:p-10 md:p-8 sm:p-6 p-4'>
             <div className='text-left flex flex-col justify-center gap-1'>
               <label htmlFor="full-name">Full Name</label>
               <input

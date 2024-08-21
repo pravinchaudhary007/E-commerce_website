@@ -49,16 +49,16 @@ const Register = () => {
     };
 
     return (
-        <div className='h-auto text-white w-auto bg-register bg-cover bg-no-repeat max-w-full lg:p-10 md:p-8 sm:p-6 p-4 flex flex-col items-center  justify-center'>
+        <div className='min-h-screen h-auto lg:h-[765px] text-white w-auto bg-register bg-cover bg-no-repeat max-w-full flex flex-col items-center  justify-center'>
 
-            <div className=' w-fit items-center ring-4 md:ring-6 border-2 border-transparent bg-black bg-opacity-50 ring-white lg:rounded-lg rounded-md'>
-                <div className='lg:m-8 md:m-8 sm:m-4 m-auto'>
+            <div className='md:m-4 sm:m-6 m-4 w-fit items-center ring-4 md:ring-6 border-2 border-transparent bg-black bg-opacity-50 ring-white lg:rounded-lg rounded-md'>
+                <div className='lg:p-0 md:p-4 sm:p-4 p-2'>
                     <div className="lg:p-6 md:p-4 sm:p-2 p-4">
                         <h1 className="font-semibold tracking-wider lg:text-4xl md:text-2xl sm:text-lg text-lg text-center underline-offset-0 ">Register Now</h1>
                     </div>
 
                     <form onSubmit={handleInputSubmit} >
-                        <div className=" lg:p-8 md:p-8 sm-p-4 p-2 grid grid-flow-row lg:gap-8 md:gap-6 gap-4 justify-center items-center ">
+                        <div className=" lg:p-6 md:p-4 sm-p-4 p-2 grid grid-flow-row lg:gap-8 md:gap-6 gap-4 justify-center items-center ">
                             <div className="flex flex-col justify-center items-left md:gap-4 gap-2">
                                 <label
                                     htmlFor="Enter Your Name... "
@@ -72,7 +72,7 @@ const Register = () => {
                                     autoComplete="off"
                                     id="name"
                                     name="name"
-                                    className='lowercase lg:w-[400px] md:w-[370px] sm:w-[320px] w-auto  md:text-lg sm:text-base text-xs md:p-2 p-[2px] tracking-tight outline-none lg:rounded-md rounded-sm  lg:pl-4 md:pl-3 sm:pl-2 pl-2 text-black placeholder:text-black font-semibold' />
+                                    className='lowercase lg:w-[400px] md:w-[370px] sm:w-[320px] w-[220px]  md:text-lg sm:text-base text-xs md:p-2 p-[2px] tracking-tight outline-none lg:rounded-md rounded-sm  lg:pl-4 md:pl-3 sm:pl-2 pl-2 text-black placeholder:text-black font-semibold' />
                             </div>
                             <div className="flex flex-col justify-center items-left md:gap-4 gap-2 ">
                                 <label
@@ -86,7 +86,7 @@ const Register = () => {
                                     required
                                     autoComplete="off"
                                     name="email"
-                                    className='lg:w-[400px] md:w-[370px] sm:w-[320px] w-auto  md:p-2 lg:text-xl md:text-lg sm:text-base text-xs tracking-tight outline-none p-[2px] lg:rounded-md rounded-sm  lg:pl-4 md:pl-3 sm:pl-2 pl-1 text-black placeholder:text-black font-semibold ' />
+                                    className='lg:w-[400px] md:w-[370px] sm:w-[320px] w-[220px]   md:p-2 lg:text-xl md:text-lg sm:text-base text-xs tracking-tight outline-none p-[2px] lg:rounded-md rounded-sm  lg:pl-4 md:pl-3 sm:pl-2 pl-1 text-black placeholder:text-black font-semibold ' />
                             </div>
                             <div className="flex flex-col justify-center items-left md:gap-4 gap-2 ">
                                 <label htmlFor="Enter Password "
@@ -99,7 +99,7 @@ const Register = () => {
                                     onChange={handleInputChange}
                                     id="password" 
                                      autoComplete="new-password"
-                                    className='lg:w-[400px] md:w-[370px] sm:w-[320px] w-auto  md:p-2 p-[2px] lg:text-xl md:text-lg sm:text-base text-xs tracking-tight outline-none lg:rounded-md rounded-sm lg:pl-4 md:pl-3 sm:pl-2 pl-1 text-black placeholder:text-black font-semibold ' />
+                                    className='lg:w-[400px] md:w-[370px] sm:w-[320px] w-[220px]   md:p-2 p-[2px] lg:text-xl md:text-lg sm:text-base text-xs tracking-tight outline-none lg:rounded-md rounded-sm lg:pl-4 md:pl-3 sm:pl-2 pl-1 text-black placeholder:text-black font-semibold ' />
                             </div>
                             <div className="flex flex-col justify-center items-left md:gap-4 gap-2 ">
 
@@ -113,7 +113,7 @@ const Register = () => {
                                     onChange={handleInputChange}
                                     id="cfmpassword"
                                     autoComplete="new-password"
-                                    className='lg:w-[400px] md:w-[370px] sm:w-[320px] w-auto  md:p-2 p-[2px] lg:text-xl md:text-lg sm:text-base text-xs tracking-tight outline-none lg:rounded-md rounded-sm  lg:pl-4 md:pl-3 sm:pl-2 pl-1 text-black placeholder:text-black font-semibold ' />
+                                    className='lg:w-[400px] md:w-[370px] sm:w-[320px] w-[220px]  md:p-2 p-[2px] lg:text-xl md:text-lg sm:text-base text-xs tracking-tight outline-none lg:rounded-md rounded-sm  lg:pl-4 md:pl-3 sm:pl-2 pl-1 text-black placeholder:text-black font-semibold ' />
                             </div>
                             <div className="md:-mt-4 -mt-2">
 

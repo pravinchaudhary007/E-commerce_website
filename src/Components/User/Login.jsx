@@ -48,7 +48,7 @@ const Login = () => {
 
 
   return (
-    <div className='h-auto max-h-screen text-white w-auto bg-login bg-cover bg-no-repeat max-w-full lg:p-10 md:p-8 sm:p-6 p-4 flex flex-col items-center  justify-center'>
+    <div className='min-h-screen text-white w-auto bg-login bg-cover bg-no-repeat max-w-full lg:p-10 md:p-8 sm:p-6 p-4 flex flex-col items-center  justify-center'>
        
        <div className=' w-fit items-center ring-4 md:ring-6 border-2 border-transparent  ring-blue-500/80 lg:rounded-lg rounded-md backdrop-blur-md'>
           <div className='lg:m-8 md:m-8 sm:m-4 m-auto'>
